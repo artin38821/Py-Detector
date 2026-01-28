@@ -1,2 +1,20 @@
-# CybersecurityProjects
-Projects that I made in my free time as an entry level trying to break in the field. :)
+This project is a simple yet elusive way to grab a file and read off its information. It allows us Junior Analysts to automate tens upon thousands of work with just one search in the system without executing the file, risking 
+our safety and protection as agents. Below is a detailed explaination on how it works:
+Safety First: The script opens the target file in "Read-Binary" mode. This allows it to maintain security, as the file can't actually do anything. It ultimately determines whether it's harmful or not.
+SHA 256: Every file has SHA-256 hash that is basically the footprint of the file. The tool looks over databases and looks at known malware that can be festering around.
+Hidden Text: The tool looks over hidden text in the file and flags certain words such as "powershell" "ncat" "exe". A lot of files today are labelled as safe, but unexpectedly have malicious exe files that can inflict viruses and other
+types of malware on your computer. My tool disallows that to ever happen.
+Conclusive: When it finishes reading off the code in a text file, it gives you a verdict whether or not the file is a true positive or a false positive.
+
+
+HOW TO RUN!!!!!! IMPORTANT!!!!:
+1. Open the file in power shell (or any coding platform.)
+2. RUN: python c:\Users\User\Downloads\file_checker.py
+3. Then it will say "Enter path to file to scan."
+4. Copy the file path and paste it into the code.
+5. It should alert you based on certain keywords it finds, if it's a true positive or negative.
+(Comments included in code, soon :) )
+
+
+
+
