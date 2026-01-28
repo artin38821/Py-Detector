@@ -1,4 +1,4 @@
-🛡️ PySentinel: Static File Analyzer
+🛡️ Py-Detector:
 This project is a simple yet elusive way to grab a file and read off its information. It allows us Junior Analysts to automate tens upon thousands of work with just one search in the system without executing the file, risking our safety and protection as agents.
 
 🔍 How it Works:
